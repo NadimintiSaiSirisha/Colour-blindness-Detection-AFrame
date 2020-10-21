@@ -6,3 +6,4 @@ Source: https://www.colorlitelens.com/color-blindness-test.html
 
 ### References:
 * https://www.color-blindness.com/coblis-color-blindness-simulator/
+* Red-green colour blindness chart: https://www.color-blindness.com/red-green-color-blindness/
