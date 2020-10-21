@@ -25,6 +25,11 @@ The aim of the project is to provide the users a way of detecting their specific
 * https://www.color-blindness.com/coblis-color-blindness-simulator/
 * Red-green colour blindness chart: https://www.color-blindness.com/red-green-color-blindness/
 
+### Links for project
+* Protanopia demo page: https://devershichandra27.github.io/Colour-blindness-Detection-AFrame/protanopia.html
+
 #### Readme will be updated later as the project will evolve.
+
+
 
 
