@@ -5,7 +5,7 @@ To implement Color blindness tests from the established literature as a web-appl
 Source: https://www.colorlitelens.com/color-blindness-test.html
 
 ### Solution Approach:
-The aim of the project is to provide the users a way of detecting their specific colorblindness with th help of specific color maze.
+The aim of the project is to provide the users a way of detecting their specific colorblindness with the help of specific color maze.
 
 
 ### Rule:
