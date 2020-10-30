@@ -5,6 +5,7 @@
     <title>Project Demo</title>
     <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-animation-component@^4.1.2/dist/aframe-animation-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
     <script type="text/javascript">
         var entpos = 1;
         var cu = 1;
@@ -164,6 +165,12 @@
 
     <a-scene id="main" maze>
         <a-entity id="cam" pos-reader camera look-controls wasd-controls="acceleration: 100" position="0 1.6 0"></a-entity>
+        <a-entity environment="preset: starry; dressingAmount: 500"> </a-entity>
+        <!-- adding light for background-->
+        <a-entity light="" position="-2.63 2.29 0" id="lightforRightWall"></a-entity>
+        <a-entity position="0.86 0.88 0.63" light="" id="lightForLeftWall"></a-entity>
+
+        
         <a-entity id="_1_" animation animation__position position="0 0 0">
             <a-box id="_p_l" position="-2 0 0" material=" color: #601A4A" rotation="0 0 0" scale="0.1 3.5 10"></a-box>
             <a-box id="_p_r" position="2 0 0" material=" color: #383745" rotation="0 0 0" scale="0.1 3.5 10"></a-box>
