@@ -20,7 +20,13 @@
                 var pos = document.querySelector('#cam').getAttribute('position');
                 if (pos.x <= -1.9 || pos.x >= 1.9) {
                     var getcam = document.querySelector('#cam');
-                    getcam.setAttribute('position', '0 1.6 ' + this.el.object3D.position.z);
+                    if (pos.x <= -1.9) {
+                        getcam.setAttribute('position', '-1.9 1.6 ' + this.el.object3D.position.z);
+                    }
+                    if (pos.x >= 1.9) {
+                        getcam.setAttribute('position', '1.9 1.6 ' + this.el.object3D.position.z);
+                    }
+
                 }
                 /*
                 var pos2 = document.querySelector('#cam').getAttribute('position');
