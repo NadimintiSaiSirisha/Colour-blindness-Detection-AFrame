@@ -10,9 +10,11 @@
             var cu=1;
             var ensz=0;
             var turns=0;
-            var deutereno=[];
+            //var deutereno=[0'#EE442F','#A17724',1'#63ACBE','#9C9EB5',2'#BDB8AD','#CDB1AD',3'#F5793A','#C59434',4'#A95AA1','#6F7498',5'#601A4A','#383745',6'#44749D','#5D6E9E',7'#0F2080','#092C48',8'#C6D4E1','#DECBE3',9'#F9F4EC','#FDF0F2'];
+            var deutereno=['#601A4A','#383745','#BDB8AD','#CDB1AD','#A95AA1','#6F7498','#0F2080','#092C48','#F5793A','#C59434','#85C0F9','#A3B7F9','#63ACBE','#9C9EB5','#C6D4E1','#DECBE3','#44749D','#5D6E9E','#F9F4EC','#FDF0F2','blue','blue'];
             var res=0;
             var yy=-5;
+            var i=4;
             AFRAME.registerComponent('pos-reader', {
             tick: function () {
                 if((this.el.object3D.position.x>1 || this.el.object3D.position.x<-1) && turns<10 && this.el.object3D.position.z<yy){
@@ -28,8 +30,8 @@
                     par_left.setAttribute('position','-2 0 0');
                     par_right.setAttribute('position','2 0 0');
 ///////////////////////////
-                    par_left.setAttribute('color','pink');
-                    par_right.setAttribute('color','pink');
+                        par_left.setAttribute('color',deutereno[i-2]);
+                        par_right.setAttribute('color',deutereno[i-1]);
 //////////////////////////
 
                     par_left.setAttribute('rotation','0 0 0');
@@ -83,8 +85,8 @@
                     left_right.setAttribute('id','_'+(cu+1)+'_l_r');
                     left_left.setAttribute('position','-7 0 -5');
                     left_right.setAttribute('position','-7 0 -9');
-                    left_left.setAttribute('color','pink');
-                    left_right.setAttribute('color','pink');
+                    left_left.setAttribute('color',deutereno[i]);
+                    left_right.setAttribute('color',deutereno[i+1]);
                     left_left.setAttribute('rotation','0 90 0');
                     left_right.setAttribute('rotation','0 90 0');
                     left_left.setAttribute('scale','0.1 3.5 10');
@@ -94,8 +96,8 @@
                     right_right.setAttribute('id','_'+(cu+1)+'_r_r');
                     right_left.setAttribute('position','7 0 -5');
                     right_right.setAttribute('position','7 0 -9');
-                    right_left.setAttribute('color','pink');
-                    right_right.setAttribute('color','pink');
+                    right_left.setAttribute('color',deutereno[i]);
+                    right_right.setAttribute('color',deutereno[i+1]);
                     right_left.setAttribute('rotation','0 90 0');
                     right_right.setAttribute('rotation','0 90 0');
                     right_left.setAttribute('scale','0.1 3.5 10');
@@ -123,7 +125,7 @@
                     ensz++;
                     entpos++;
                     turns++;
-                    
+                    i=i+2;
 
                     
             }   
@@ -139,18 +141,17 @@
         <a-scene id="main" maze>
         <a-entity id="cam" pos-reader camera look-controls wasd-controls="acceleration: 100" position="0 1.6 0"></a-entity>    
         <a-entity id="_1_" animation animation__position position="0 0 0">
-            <a-box  id="_p_l" position="-2 0 0" material=" color: red" rotation="0 0 0" scale="0.1 3.5 10" ></a-box>
-            <a-box id="_p_r" position="2 0 0" material=" color: red" rotation="0 0 0" scale="0.1 3.5 10" ></a-box>        
-            <a-box id="_1_l_l" position="-7 0 -5" material=" color: green" rotation="0 -90 0" scale="0.1 3.5 10" ></a-box>
-            <a-box id="_1_l_r" position="-7 0 -9" material=" color: green" rotation="0 -90 0" scale="0.1 3.5 10" ></a-box>
-            <a-box id="_1_r_l" position="7 0 -5" material=" color: blue" rotation="0 -90 0" scale="0.1 3.5 10" ></a-box>
-            <a-box id="_1_r_r"position="7 0 -9" material=" color: blue" rotation="0 -90 0" scale="0.1 3.5 10" ></a-box>
+            <a-box  id="_p_l" position="-2 0 0" material=" color: #601A4A" rotation="0 0 0" scale="0.1 3.5 10" ></a-box>
+            <a-box id="_p_r" position="2 0 0" material=" color: #383745" rotation="0 0 0" scale="0.1 3.5 10" ></a-box>        
+            <a-box id="_1_l_l" position="-7 0 -5" material=" color: #BDB8AD" rotation="0 -90 0" scale="0.1 3.5 10" ></a-box>
+            <a-box id="_1_l_r" position="-7 0 -9" material=" color: #CDB1AD" rotation="0 -90 0" scale="0.1 3.5 10" ></a-box>
+            <a-box id="_1_r_l" position="7 0 -5" material=" color: #BDB8AD" rotation="0 -90 0" scale="0.1 3.5 10" ></a-box>
+            <a-box id="_1_r_r"position="7 0 -9" material=" color: #CDB1AD" rotation="0 -90 0" scale="0.1 3.5 10" ></a-box>
             <a-box id="_1_m"position="0 0 -9" material=" color: #aa42f5" rotation="0 -90 0" scale="0.1 3.5 4" ></a-box>
             <a-text text__instruction="align: center; color: black; height: 3; letterSpacing: 1.12; side: double; value:LEVEL::1 ; whiteSpace: nowrap; width: 12; font:" position="0 1 -8.9"></a-text>
             <a-text text__instruction="align: center; color: black; height: 3; letterSpacing: 1.12; side: double; value: INSTRUCTION::: If COLORS appear DIFFERENT press LEFT else press RIGHT; whiteSpace: nowrap; width: 4; font:" position="0 2 -2"></a-text>
         </a-entity>    
         </a-scene>
-    
 
     </body>
 </html>
