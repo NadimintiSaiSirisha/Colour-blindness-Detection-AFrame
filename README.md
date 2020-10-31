@@ -30,7 +30,7 @@ The aim of the project is to provide the users a way of detecting their specific
 * Protanopia demo page: https://devershichandra27.github.io/Colour-blindness-Detection-AFrame/protanopia.html
 * Collision on walls: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/index.html
 * Dynamic walls with deuteranopia colours and wall colliders: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/dynamicWallCollisionChangeCamera.html
-
+* Music demo: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/music.html
 #### Readme will be updated later as the project will evolve.
 
 
