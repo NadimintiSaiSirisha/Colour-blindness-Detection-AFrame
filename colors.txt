@@ -1,0 +1,17 @@
+DUTERONOPIA : [1]#601A4A , #383745
+              [2]#BDB8AD , #CDB1AD
+              [3]#A95AA1 , #6F7498
+              [4]#0F2080 , #092C48
+              [5]#E0DCD3 , #E2DAD1
+
+PROTONOPIA : [1]#63ACBE , #9C9EB5
+             [2]#EE442F , #887F47
+             [3]#C6D4E1 , #D1D0DE
+             [4]#F5793A , #AE9C45
+             [5]#F9F4EC , #FAF2EA
+
+TRITONOPIA : [1]#008000 , #87CEFA
+             [2]#FFFF00 , #FFDAB9
+             [3]#FF0000 , #DC143C
+             [4]#FF4500 , #F08080
+             [5]#800080 , #B22222  
