@@ -2,12 +2,7 @@
 
     var collideWithBoundingBox = new THREE.Box3();
 
-    /**
-     * Resets an entity's position to the 'last known good' position after any simple AABB
-     * collision. Will only work for axis-aligned entities (such as walls).
-     * <p>
-     * Author: @kennardconsulting
-     */
+ 
 
     AFRAME.registerComponent('reset-on-collision', {
         schema: {
@@ -18,9 +13,9 @@
         init: function() {
             // Choose a geometry size that is small enough to not get stuck often, but large enough to catch WASD movement
 
-            this.el.setAttribute('geometry', 'width: 0.2; depth: 0.2; height: 0.2');
+            this.el.setAttribute('geometry', 'width: 0.1; depth: 0.1; height: 0.1');
 
-            this.mesh = this.el.getObject3D('mesh');
+            this.mesh =this.el.getObject3D('mesh');
             this.boundingBox = new THREE.Box3();
             this.collideWiths = this.el.sceneEl.querySelectorAll(this.data.with);
         },
@@ -63,9 +58,6 @@
                 return false;
             }
 
-            /**
-             * Tests a single entity for intersection. Uses simple AABB collision detection.
-             */
 
             function intersect(el) {
 
