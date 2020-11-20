@@ -31,6 +31,8 @@ The aim of the project is to provide the users a way of detecting their specific
 * Collision on walls: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/index.html
 * Dynamic walls with deuteranopia colours and wall colliders: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/dynamicWallCollisionChangeCamera.html
 * Music demo: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/music.html
+* colour selection:(1)https://venngage.com/blog/color-blind-friendly-palette/ 
+* colour selection:(2)https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.disabled-world.com/disability/accessibility/websitedesign/color-spectrum-chart.php&ved=2ahUKEwj20KyXgY7tAhUihuYKHU9DCbUQFjAAegQIARAB&usg=AOvVaw238CN_Oe68WICz6WrqyKoP
 #### Readme will be updated later as the project will evolve.
 
 
