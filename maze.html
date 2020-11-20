@@ -11,6 +11,9 @@
 
 
         //list of color pairs  
+        var wall_colors = ['#63ACBE','#9C9EB5', '#601A4A','#383745', '#008000','#87CEFA', '#EE442F','#887F47', '#BDB8AD','#CDB1AD', 
+                            '#FFFF00','#FFDAB9', '#FF99CC','#B1B8E0', '#A95AA1','#6F7498', '#FF0000','#DC143C', '#F5793A','#AE9C45', 
+                            '#0F2080','#092C48', '#FF4500','#F08080', '#CCFF00','#FFE655', '#E0DCD3','#E2DAD1', '#FF0066','#F06A71',];
         
         //variables for holding score
         var protanopia = 0;
@@ -53,8 +56,8 @@
                     par_left.setAttribute('position', '-2 0 0');
                     par_right.setAttribute('position', '2 0 0');
                     ///////////////////////////
-                    par_left.setAttribute('color', 'blue');
-                    par_right.setAttribute('color', 'blue');
+                    par_left.setAttribute('color', wall_colors[i - 2]);
+                    par_right.setAttribute('color', wall_colors[i - 1]);
                     //////////////////////////
 
                     par_left.setAttribute('rotation', '0 0 0');
@@ -119,8 +122,8 @@
                     left_right.setAttribute('id', '_' + (cu + 1) + '_l_r');
                     left_left.setAttribute('position', '-7 0 -5');
                     left_right.setAttribute('position', '-7 0 -9');
-                    left_left.setAttribute('color', 'blue');
-                    left_right.setAttribute('color', 'blue');
+                    left_left.setAttribute('color', wall_colors[i]);
+                    left_right.setAttribute('color', wall_colors[i + 1]);
                     left_left.setAttribute('rotation', '0 90 0');
                     left_right.setAttribute('rotation', '0 90 0');
                     left_left.setAttribute('scale', '0.1 3.5 10');
@@ -130,8 +133,8 @@
                     right_right.setAttribute('id', '_' + (cu + 1) + '_r_r');
                     right_left.setAttribute('position', '7 0 -5');
                     right_right.setAttribute('position', '7 0 -9');
-                    right_left.setAttribute('color', 'blue');
-                    right_right.setAttribute('color', 'blue');
+                    right_left.setAttribute('color', wall_colors[i]);
+                    right_right.setAttribute('color', wall_colors[i + 1]);
                     right_left.setAttribute('rotation', '0 90 0');
                     right_right.setAttribute('rotation', '0 90 0');
                     right_left.setAttribute('scale', '0.1 3.5 10');
@@ -196,20 +199,20 @@
         <!-- adding light for background-->
         <a-entity light="" position="-2.63 2.29 0" id="lightforRightWall"></a-entity>
         <a-entity position="0.86 0.88 0.63" light="" id="lightForLeftWall"></a-entity>
-            
+             
         <a-entity id="_1_" animation animation__position position="0 0 0">
-            <a-box id="_p_l" position="-2 0 0" material=" color: blue" rotation="0 0 0" scale="0.1 3.5 10"></a-box>
-            <a-box id="_p_r" position="2 0 0" material=" color: blue" rotation="0 0 0" scale="0.1 3.5 10"></a-box>
-            <a-box id="_1_l_l" position="-7 0 -5" material=" color: blue" rotation="0 -90 0" scale="0.1 3.5 10"></a-box>
-            <a-box id="_1_l_r" position="-7 0 -9" material=" color: blue" rotation="0 -90 0" scale="0.1 3.5 10"></a-box>
-            <a-box id="_1_r_l" position="7 0 -5" material=" color: blue" rotation="0 -90 0" scale="0.1 3.5 10"></a-box>
-            <a-box id="_1_r_r" position="7 0 -9" material=" color: blue" rotation="0 -90 0" scale="0.1 3.5 10"></a-box>
-            <a-box id="_1_m" position="0 0 -9" material=" color: blue" rotation="0 -90 0" scale="0.1 3.5 4"></a-box>
+            <a-box id="_p_l" position="-2 0 0" material=" color: #63ACBE" rotation="0 0 0" scale="0.1 3.5 10"></a-box>
+            <a-box id="_p_r" position="2 0 0" material=" color: #9C9EB5" rotation="0 0 0" scale="0.1 3.5 10"></a-box>
+            <a-box id="_1_l_l" position="-7 0 -5" material=" color: #601A4A" rotation="0 -90 0" scale="0.1 3.5 10"></a-box>
+            <a-box id="_1_l_r" position="-7 0 -9" material=" color: #383745" rotation="0 -90 0" scale="0.1 3.5 10"></a-box>
+            <a-box id="_1_r_l" position="7 0 -5" material=" color: #601A4A" rotation="0 -90 0" scale="0.1 3.5 10"></a-box>
+            <a-box id="_1_r_r" position="7 0 -9" material=" color: #383745" rotation="0 -90 0" scale="0.1 3.5 10"></a-box>
+            <a-box id="_1_m" position="0 0 -9" material=" color: #aa42f5" rotation="0 -90 0" scale="0.1 3.5 4"></a-box>
             <a-text text__instruction="align: center; color: black; height: 3; letterSpacing: 1.12; side: double; value:LEVEL::1 ; whiteSpace: nowrap; width: 12; font:" position="0 1 -8.9"></a-text>
             <a-text text__instruction="align: center; color: black; height: 3; letterSpacing: 1.12; side: double; value: ; whiteSpace: nowrap; width: 4; font:" position="0 2 -2"></a-text>
         </a-entity>
     </a-scene>
 
-</body> 
+</body>
 
 </html>
