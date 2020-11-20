@@ -10,3 +10,4 @@ FInally used aframe-reset-on-collision https://github.com/kennardconsulting/afra
 6. Added wall colliders for dynamic walls - 30/10/2020 - Sai Sirisha Nadiminti (aframe-reset-on-collsion not working on 1.0.3 aframe so, made changes in js)
 7. Added music to the game - 31/10/2020 - Devershi Chandra
 8. Added the homepage of the game - 10/11/2020 - Sai Sirisha Nadiminti
+9. Added the gltf model and attached it to the camera - 19/11/2020 - Sai Sirisha Nadiminti
