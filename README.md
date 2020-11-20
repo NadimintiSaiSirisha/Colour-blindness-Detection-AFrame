@@ -2,7 +2,7 @@
 
 ### Objective: 
 To implement Color blindness tests from the established literature as a web-application to digitally test color-blindedness in users. 
-Source: https://www.colorlitelens.com/color-blindness-test.html
+
 
 ### Solution Approach:
 The aim of the project is to provide the users a way of detecting their specific colorblindness with the help of specific color maze.
@@ -19,20 +19,24 @@ The aim of the project is to provide the users a way of detecting their specific
 
 ### Files:
 
-* *protanopia.html* is used to detect the protanopia color blindness. It's just a demo.
+* *index.html* is the hompage. 
+* *maze.html* is used to detect color blindness.
+* *instructions.html* has all the instructions for the game.
 
 ### References:
 * https://aframe.io/
 * https://www.color-blindness.com/coblis-color-blindness-simulator/
 * Red-green colour blindness chart: https://www.color-blindness.com/red-green-color-blindness/
+* colour selection:(1)https://venngage.com/blog/color-blind-friendly-palette/ 
+* colour selection:(2)https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.disabled-world.com/disability/accessibility/websitedesign/color-spectrum-chart.php&ved=2ahUKEwj20KyXgY7tAhUihuYKHU9DCbUQFjAAegQIARAB&usg=AOvVaw238CN_Oe68WICz6WrqyKoP
+* https://www.colorlitelens.com/color-blindness-test.html
 
 ### Links for project
 * Protanopia demo page: https://devershichandra27.github.io/Colour-blindness-Detection-AFrame/protanopia.html
 * Collision on walls: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/index.html
 * Dynamic walls with deuteranopia colours and wall colliders: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/dynamicWallCollisionChangeCamera.html
 * Music demo: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/music.html
-* colour selection:(1)https://venngage.com/blog/color-blind-friendly-palette/ 
-* colour selection:(2)https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.disabled-world.com/disability/accessibility/websitedesign/color-spectrum-chart.php&ved=2ahUKEwj20KyXgY7tAhUihuYKHU9DCbUQFjAAegQIARAB&usg=AOvVaw238CN_Oe68WICz6WrqyKoP
+
 #### Readme will be updated later as the project will evolve.
 
 
