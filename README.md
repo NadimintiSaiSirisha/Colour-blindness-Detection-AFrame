@@ -27,6 +27,7 @@ The aim of the project is to provide the users a way of detecting their specific
 
 * In the above code defeciencies are alloted with integers from 1 to 3 that is for protanopia its 1, for deutranopia its 2 and for tritanopia its 3, j is a variable initialized with 1, on each turn it checks for left or right turn and if its left then it increments the variable corresponds to the deficiency present on that level and then it changes the value of j with the integer corresponding to the next deficiency. After completing the last level, the value of all the varibles (i.e protanopia, deuteranopia and tritanopia variable) will be displayed in the form of score.
 
+
 ### Files:
 
 * *index.html* is the hompage. 
@@ -45,7 +46,11 @@ The aim of the project is to provide the users a way of detecting their specific
 The github page link will be provided as soon as we make the repository public.
 
 ### Note:
-* You may face this issue when you try to start the maze game:
+* You may face this issue when you try to start the maze game. Below is the screenshot of the console of the page 
+
+![image info](images/glitch.png)
+
+* Given Below link Which is useful for Resolution if in case you come across the error like this.
 
 * [Resolve](https://help.symantec.com/cs/DCS1.0/DCS1_0/v107680513_v99309261/Enabling-CORS?locale=EN_US) this issue.
 
