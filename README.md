@@ -23,7 +23,7 @@ The aim of the project is to provide the users a way of detecting their specific
 
 * Below is the screenshot of the code which checks the type of deficiency that is present in that level and also how scores are getting calculated for each deficiency.
 
-* ![image info](images/ss.png)
+![image info](images/ss.png)
 
 * In the above code defeciencies are alloted with integers from 1 to 3 that is for protanopia its 1, for deutranopia its 2 and for tritanopia its 3, j is a variable initialized with 1, on each turn it checks for left or right turn and if its left then it increments the variable corresponds to the deficiency present on that level and then it changes the value of j with the integer corresponding to the next deficiency. After completing the last level, the value of all the varibles (i.e protanopia, deuteranopia and tritanopia variable) will be displayed in the form of score.
 
