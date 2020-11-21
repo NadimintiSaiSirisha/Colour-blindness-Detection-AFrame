@@ -42,13 +42,12 @@ The aim of the project is to provide the users a way of detecting their specific
 * https://www.colorlitelens.com/color-blindness-test.html
 
 ### Links for project
-* Protanopia demo page: https://devershichandra27.github.io/Colour-blindness-Detection-AFrame/protanopia.html
-* Collision on walls: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/index.html
-* Dynamic walls with deuteranopia colours and wall colliders: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/dynamicWallCollisionChangeCamera.html
-* Music demo: https://nadimintisaisirisha.github.io/Colour-blindness-Detection-AFrame/music.html
+The github page link will be provided as soon as we make the repository public.
 
-#### Readme will be updated later as the project will evolve.
+### Note:
+* You may face this issue when you try to start the maze game:
 
+* [Resolve](https://help.symantec.com/cs/DCS1.0/DCS1_0/v107680513_v99309261/Enabling-CORS?locale=EN_US) this issue.
 
 
 
